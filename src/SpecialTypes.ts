@@ -17,7 +17,15 @@ console.log(anything, typeof anything);
 anything = 'hihihi';
 console.log(anything, typeof anything);
 anything = [];
-console.log(anything, typeof anything);
+console.log(anything, typeof anything); // noImplicitAny, 암시적 any 타입 부여를 거절.
+
+// do not specify any type
+let anything1;
+console.log('anythingType:', typeof anything1);
+anything1 = 'hihihi';
+console.log(anything1, typeof anything1);
+anything1 = [];
+// console.log(anything1, typeof anything1);
 
 // Unknown Type
 let myUnknown: unknown;
