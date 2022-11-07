@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "nodemon --exec ts-node src/LiteralTypes.ts",
+    "dev": "nodemon --exec ts-node src/methodTypes.ts",
     "start": "ts-node dist/app.ts"
   },
   "keywords": [],
