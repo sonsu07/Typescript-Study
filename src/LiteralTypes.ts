@@ -47,3 +47,27 @@ const referenceTypeObj = {
 console.log(referenceTypeObj); // { name: 'lee', age: 28, born: 'Daegu' }
 referenceTypeObj.born = 'Busan';
 console.log(referenceTypeObj); // { name: 'lee', age: 28, born: 'Daegu' }
+
+// Literal Type의 문제점
+const data = {
+    name: 'Lee'
+}
+
+function myFunc2(a: 'Lee') {
+
+}
+
+// myFunc2(data.name);
+
+
+// as const 효과
+const asConstEffect = {
+    name : 'Lee'
+} as const;
+
+function asConstFunc(x: 'Lee') {
+
+}
+
+asConstFunc(asConstEffect.name);
+// asConstEffect.name = 'Kim';
