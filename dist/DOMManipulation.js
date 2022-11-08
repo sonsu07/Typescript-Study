@@ -1,11 +1,14 @@
 "use strict";
-let title = document.querySelector('#title');
+let vueImg = document.querySelector('#vue-img');
 let btn = document.querySelector('#button');
-btn === null || btn === void 0 ? void 0 : btn.addEventListener('click', function (e) {
-    if (title instanceof HTMLElement) {
-        title.innerHTML = '반갑소';
+btn === null || btn === void 0 ? void 0 : btn.addEventListener('click', (e) => {
+    if (vueImg instanceof HTMLImageElement) {
+        vueImg.src = './img/react.webp';
     }
 });
-if ((title === null || title === void 0 ? void 0 : title.innerHTML) != undefined) {
-    title.innerHTML = '반갑습니다';
-}
+let naver = document.querySelectorAll('.naver');
+naver.forEach((item, idx) => {
+    if (item instanceof HTMLAnchorElement) {
+        item.href = 'https://kakao.com';
+    }
+});
