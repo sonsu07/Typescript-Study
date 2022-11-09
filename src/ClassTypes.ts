@@ -57,8 +57,8 @@ interface WordArrType {
 }
 
 class Word {
-    num: number[] = [];
-    str: string[] = [];
+    public num: number[] = [];
+    public str: string[] = [];
     constructor(...params: (string | number)[]) {
         params.forEach(item => {
             if (typeof item === 'string') {
