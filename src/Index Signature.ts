@@ -1,16 +1,18 @@
 
 
+interface PracticeIndexSign {
+    [index: string]: string;
+    val1: string;
+    // val2: number;
+}
 
-/**
- * index signature
- */
-interface someOneInterface {
+interface SomeOneInterface {
     [index: string] : string | number
     name: string;
     age: number;
     born: string;
 }
-const someOne: someOneInterface = {
+const someOne: SomeOneInterface = {
     name: 'Kim',
     age: 21,
     born: 'Busan'
@@ -36,4 +38,4 @@ for (let prop in lee) {
     console.log(`${prop} ${lee[prop]}`);
 }
 
-export {}
+export{}

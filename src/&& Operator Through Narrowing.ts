@@ -1,4 +1,6 @@
 // default narrowing
+import exp from "constants";
+
 function defaultNarrowing(x: string | number) {
     if (typeof x === 'string') {
         console.log(typeof x, x)
@@ -6,6 +8,7 @@ function defaultNarrowing(x: string | number) {
         console.log(typeof x, x)
     }
 }
+
 defaultNarrowing('스트링입니다');
 defaultNarrowing(123);
 
@@ -18,5 +21,5 @@ function andOperatorNarrowing(a: string | undefined) {
 
 andOperatorNarrowing('안녕하세요');
 
-console.log(4 && 0 && 7);
 
+export {}
