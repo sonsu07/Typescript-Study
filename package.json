@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "nodemon --exec ts-node src/\"21. Merge Two Sorted Lists\".ts",
+    "dev": "nodemon --exec ts-node src/leetcode/\"26. Remove Duplicates from Sorted Array\".ts",
     "start": "ts-node src/DOMManipulation.ts"
   },
   "keywords": [],
