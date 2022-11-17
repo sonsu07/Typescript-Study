@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "nodemon --exec ts-node src/leetcode/\"66. Plus One\".ts",
+    "dev": "nodemon --exec ts-node src/Programmers/\"x만큼 간격이 있는 n개의 숫자\".ts",
     "start": "ts-node src/DOMManipulation.ts"
   },
   "keywords": [],
