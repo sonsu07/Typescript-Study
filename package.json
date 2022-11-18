@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "dev": "nodemon --exec ts-node src/Programmers/\"배열의 유사도\".ts",
+    "dev": "nodemon --exec ts-node src/Programmers/\"Level 1\"/\"정수 내림차순으로 배치하기\".ts",
     "start": "ts-node src/DOMManipulation.ts"
   },
   "keywords": [],
