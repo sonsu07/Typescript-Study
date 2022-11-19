@@ -57,7 +57,12 @@ function solution(N: number, stages: number[]) {
             failureRate = (stageNum) / totalNum;
         }
         totalNum -= stageNum;
-        arr.push({idx: i, ratio: failureRate});
+        arr.push(
+            {
+                idx: i,
+                ratio: failureRate
+            }
+        );
     }
     arr.sort((a, b) => {
         if (a.ratio > b.ratio) {
