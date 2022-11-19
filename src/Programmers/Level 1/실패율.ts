@@ -54,7 +54,7 @@ function solution(N: number, stages: number[]) {
         if (stageNum === 0) {
             failureRate = 0;
         } else {
-            failureRate = (stageNum) / totalNum;
+            failureRate = stageNum / totalNum;
         }
         totalNum -= stageNum;
         arr.push(
