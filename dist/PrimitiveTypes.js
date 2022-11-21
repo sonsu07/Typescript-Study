@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const name = 'Lee SungSu';
 const age = 28;
 const born = 'Busan';
@@ -12,3 +10,4 @@ let project = {
     days: 30,
     started: true,
 };
+export {};

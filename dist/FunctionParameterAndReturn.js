@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function somethingFunc(x) {
     return x * 2;
 }
@@ -49,3 +47,4 @@ function question4(income, ownHome, charmingScore) {
 console.log('Question 4.');
 let result = question4(700, false, '중');
 console.log(result);
+export {};

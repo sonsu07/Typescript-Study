@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function notNarrowing(x) {
     let arr = [];
 }
@@ -48,3 +46,4 @@ function returnLastClass(teacher) {
     }
 }
 console.log(returnLastClass({ subject: ['science', 'art', 'korean'] }));
+export {};
