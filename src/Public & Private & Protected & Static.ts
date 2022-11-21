@@ -1,6 +1,4 @@
 // Public
-import test from "node:test";
-
 class PublicUser {
     public name: string;
 
@@ -179,17 +177,21 @@ class Square {
     }
 
     draw() {
-        const random = Math.random();
-        let square = `<div style="position: relative">
-                        top: ${random * 400}px;
-                        left: ${random * 400}px;
-                        width: ${this.width}px;
-                        height: ${this.height}px;
-                        background: ${this.color};
-                    </div>`;
-        document.body.insertAdjacentHTML('beforeend', square);
+        let random = Math.random();
+        let square = `
+                    <div style="position:relative; 
+                          top: ${random * 400}px; 
+                          left: ${random * 400}px; 
+                          width: ${this.width}px; 
+                          height: ${this.height}px; 
+                          background: ${this.color}">
+                    </div>
+                    `;
+        document.body.insertAdjacentHTML('beforeend', square)
     }
 }
 
+const mySquare = new Square(30, 30, 'red');
+mySquare.draw();
 
-export {}
+export {mySquare}
