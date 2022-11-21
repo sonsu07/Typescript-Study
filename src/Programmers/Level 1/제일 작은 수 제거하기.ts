@@ -19,3 +19,5 @@ function solution(arr: number[]): number[] {
 }
 
 console.log(solution([4,3,2,1]));
+
+export {}

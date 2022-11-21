@@ -29,3 +29,5 @@ function solution(n: number): number {
 }
 
 console.log(solution(987));
+
+export {}

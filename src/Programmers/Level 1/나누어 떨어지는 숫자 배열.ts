@@ -44,4 +44,6 @@ function solution(arr: number[], divisor: number): number[] {
     return answer;
 }
 
-console.log(solution([2, 36, 1, 3], 1))
+console.log(solution([2, 36, 1, 3], 1));
+
+export {}

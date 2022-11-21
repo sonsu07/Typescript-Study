@@ -16,3 +16,5 @@ function solution(n: number) {
 }
 
 console.log(solution(3));
+
+export {}

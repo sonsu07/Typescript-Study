@@ -29,4 +29,6 @@ function solution(numbers: number[]) {
     return answer;
 }
 
-console.log(solution([5,8,4,0,6,7,9]))
+console.log(solution([5,8,4,0,6,7,9]));
+
+export {}

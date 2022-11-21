@@ -19,3 +19,5 @@ function solution(n: number): number[] {
 }
 
 console.log(solution(12345));
+
+export {}

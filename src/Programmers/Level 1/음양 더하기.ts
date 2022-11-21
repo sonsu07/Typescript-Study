@@ -35,4 +35,6 @@ function solution(absolutes: number[], signs: boolean[]) {
     return answer;
 }
 
-console.log(solution([1,2,3], [false,false,true]))
+console.log(solution([1,2,3], [false,false,true]));
+
+export {}

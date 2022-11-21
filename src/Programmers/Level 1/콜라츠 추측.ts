@@ -42,3 +42,5 @@ function solution(num: number): number {
 }
 
 console.log(solution(6));
+
+export {}

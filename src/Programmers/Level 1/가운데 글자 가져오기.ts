@@ -18,4 +18,6 @@ function solution(s: string) {
     }
 }
 
-console.log(solution("abcde"))
+console.log(solution("abcde"));
+
+export {}

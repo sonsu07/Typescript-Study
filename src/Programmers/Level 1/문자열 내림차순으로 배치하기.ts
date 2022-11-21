@@ -19,3 +19,5 @@ function solution(s: string) {
 }
 
 console.log(solution("Zbcdefg"));
+
+export {}

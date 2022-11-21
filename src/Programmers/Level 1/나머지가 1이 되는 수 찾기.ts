@@ -32,3 +32,5 @@ function solution(n: number): number {
 }
 
 console.log(solution(10));
+
+export {}

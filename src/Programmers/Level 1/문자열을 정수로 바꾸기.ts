@@ -19,3 +19,5 @@ function solution(s: string): number {
 
     return answer;
 }
+
+export {}

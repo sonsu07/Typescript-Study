@@ -37,3 +37,5 @@ function solution(x: number): boolean {
 }
 
 console.log(solution(10));
+
+export {}

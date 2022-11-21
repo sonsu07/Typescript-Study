@@ -39,3 +39,5 @@ function solution(left: number, right: number): number {
 }
 
 console.log(solution(13, 17));
+
+export {}

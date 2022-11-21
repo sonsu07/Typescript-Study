@@ -39,3 +39,5 @@ function solution(s1: string[], s2: string[]): number {
 }
 
 console.log(solution(["a", "b", "c"], ["com", "b", "d", "p", "c"]));
+
+export {}

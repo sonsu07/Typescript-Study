@@ -25,4 +25,6 @@ function solution(n: number): number {
     return answer;
 }
 
-console.log(solution(121))
+console.log(solution(121));
+
+export {}

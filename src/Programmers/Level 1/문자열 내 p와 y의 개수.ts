@@ -34,3 +34,5 @@ function solution(s: string): boolean {
 }
 
 console.log(solution("Pyy"));
+
+export {}

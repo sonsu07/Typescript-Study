@@ -17,3 +17,5 @@ function solution(phone_number: string): string {
 }
 
 console.log(solution("01033334444"));
+
+export {}
