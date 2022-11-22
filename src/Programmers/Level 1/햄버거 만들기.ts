@@ -39,3 +39,5 @@ function solution(ingredient: number[]): number {
 }
 
 console.log(solution([2, 1, 1, 2, 3, 1, 2, 3, 1]));
+
+export {}

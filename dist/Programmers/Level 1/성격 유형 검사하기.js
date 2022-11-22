@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(survey, choices) {
     let answer = '';
     const types = {

@@ -39,3 +39,5 @@ function solution(survey: string[], choices: number[]): string {
 }
 
 console.log(solution(["AN", "CF", "MJ", "RT", "NA"], [5, 3, 2, 7, 5]));
+
+export {}

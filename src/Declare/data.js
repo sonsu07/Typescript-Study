@@ -1,2 +1,2 @@
-let a = 10;
-let b = {name :'kim'};
+var a = 10;
+var b = {name :'kim'};
