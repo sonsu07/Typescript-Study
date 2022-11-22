@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const myTrips = {
     japan: ['okayama', 'tokyo', 'kyoto', 'hokkaido']
 };
@@ -31,4 +33,3 @@ const someOne = {
     email: 'example@example.com',
     minors: false,
 };
-export {};

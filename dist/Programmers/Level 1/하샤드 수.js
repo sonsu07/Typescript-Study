@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(x) {
     let answer = true;
     let str = String(x);
@@ -9,4 +11,3 @@ function solution(x) {
     return answer;
 }
 console.log(solution(10));
-export {};

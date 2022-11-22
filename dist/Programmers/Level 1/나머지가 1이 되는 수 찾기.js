@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(n) {
     let answer = 0;
     let arr = [];
@@ -10,4 +12,3 @@ function solution(n) {
     return answer;
 }
 console.log(solution(10));
-export {};

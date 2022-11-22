@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(arr, divisor) {
     let answer = [];
     arr.forEach((num, idx) => {
@@ -20,4 +22,3 @@ function solution(arr, divisor) {
     return answer;
 }
 console.log(solution([2, 36, 1, 3], 1));
-export {};

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(absolutes, signs) {
     let answer = 0;
     for (let i = 0; i < absolutes.length; i++) {
@@ -9,4 +11,3 @@ function solution(absolutes, signs) {
     return answer;
 }
 console.log(solution([1, 2, 3], [false, false, true]));
-export {};

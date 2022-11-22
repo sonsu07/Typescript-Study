@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(N, stages) {
     let arr = [];
     let totalNum = stages.length;
@@ -35,4 +37,3 @@ function solution(N, stages) {
     return arr.map(n => n.idx);
 }
 console.log(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]));
-export {};

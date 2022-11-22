@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(x, n) {
     let answer = [];
     let origin = x;
@@ -8,4 +10,3 @@ function solution(x, n) {
     return answer;
 }
 console.log(solution(2, 5));
-export {};

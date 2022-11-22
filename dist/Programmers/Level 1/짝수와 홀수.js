@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(num) {
     let answer = '';
     if (num % 2 === 0)
@@ -7,4 +9,3 @@ function solution(num) {
     return answer;
 }
 console.log(solution(4));
-export {};

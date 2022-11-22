@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(n) {
     let answer = 0;
     const sqrt = Math.sqrt(n);
@@ -8,4 +10,3 @@ function solution(n) {
     return answer;
 }
 console.log(solution(121));
-export {};
