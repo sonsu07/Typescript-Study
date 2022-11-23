@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(s) {
     if (s.length % 2 === 0) {
         return s.split('').splice((s.length / 2) - 1, 2).join('');
@@ -7,4 +9,3 @@ function solution(s) {
     }
 }
 console.log(solution("abcde"));
-export {};

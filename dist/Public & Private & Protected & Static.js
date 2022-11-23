@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.mySquare = void 0;
 class PublicUser {
     constructor() {
         this.name = 'kim';
@@ -116,5 +119,5 @@ class Square {
     }
 }
 const mySquare = new Square(30, 30, 'red');
+exports.mySquare = mySquare;
 mySquare.draw();
-export { mySquare };

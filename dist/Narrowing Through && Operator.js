@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function defaultNarrowing(x) {
     if (typeof x === 'string') {
         console.log(typeof x, x);
@@ -14,4 +16,3 @@ function andOperatorNarrowing(a) {
     }
 }
 andOperatorNarrowing('안녕하세요');
-export {};

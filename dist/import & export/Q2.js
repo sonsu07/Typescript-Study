@@ -1,3 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let animal = 123;
+const insertObj = (a) => {
+    console.log(a);
+};

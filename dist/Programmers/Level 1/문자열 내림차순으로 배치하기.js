@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(s) {
     return s.split('').sort((a, b) => {
         if (a > b)
@@ -9,4 +11,3 @@ function solution(s) {
     }).join('');
 }
 console.log(solution("Zbcdefg"));
-export {};

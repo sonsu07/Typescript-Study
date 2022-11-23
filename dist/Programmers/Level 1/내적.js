@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(a, b) {
     let result = 0;
     for (let i = 0; i < a.length; i++) {
@@ -6,4 +8,3 @@ function solution(a, b) {
     return result;
 }
 console.log(solution([1, 2, 3, 4], [-3, -1, 0, 2]));
-export {};

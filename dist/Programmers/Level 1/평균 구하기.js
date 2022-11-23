@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(arr) {
     let answer = 0;
     let sum = 0;
@@ -8,4 +10,3 @@ function solution(arr) {
     return answer;
 }
 console.log(solution([1, 2, 3, 4]));
-export {};

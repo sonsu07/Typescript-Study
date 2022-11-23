@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(s) {
     let answer = true;
     s = s.toLowerCase();
@@ -13,4 +15,3 @@ function solution(s) {
     return answer;
 }
 console.log(solution("Pyy"));
-export {};

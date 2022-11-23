@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function useTypeFunc(parameter) {
     return parameter;
 }
@@ -36,4 +38,3 @@ function testFunc(a, func1, func2) {
     console.log(result2);
 }
 testFunc('010-1111-2222', cutZero, removeDash);
-export {};

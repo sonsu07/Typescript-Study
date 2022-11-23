@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 class Square {
     constructor(width, height, color) {
         this.width = width;
@@ -23,4 +25,3 @@ mySquare.draw();
 mySquare.draw();
 mySquare.draw();
 mySquare.draw();
-export {};

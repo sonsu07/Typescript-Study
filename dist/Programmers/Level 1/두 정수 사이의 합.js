@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(a, b) {
     let answer = 0;
     if (a >= b) {
@@ -13,4 +15,3 @@ function solution(a, b) {
     return answer;
 }
 console.log(solution(5, 3));
-export {};

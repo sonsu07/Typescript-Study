@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(n) {
     let answer = [];
     const str = String(n).split("").reverse();
@@ -7,4 +9,3 @@ function solution(n) {
     return answer;
 }
 console.log(solution(12345));
-export {};

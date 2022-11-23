@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(price, money, count) {
     let num = 0;
     for (let i = 1; i <= count; i++) {
@@ -9,4 +11,3 @@ function solution(price, money, count) {
         return 0;
 }
 console.log(solution(3, 20, 4));
-export {};

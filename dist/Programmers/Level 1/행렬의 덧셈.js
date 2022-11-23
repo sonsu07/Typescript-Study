@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(arr1, arr2) {
     let answer = [];
     for (let i = 0; i < arr1.length; i++) {
@@ -10,4 +12,3 @@ function solution(arr1, arr2) {
     return answer;
 }
 console.log(solution([[1, 2], [2, 3]], [[3, 4], [5, 6]]));
-export {};

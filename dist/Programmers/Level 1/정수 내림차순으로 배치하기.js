@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function solution(n) {
     let answer = 0;
     let strArr = String(n).split('');
@@ -13,4 +15,3 @@ function solution(n) {
     return answer;
 }
 console.log(solution(118372));
-export {};

@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const [name1, name2] = ['Lee', 'Kim'];
 const { student, age } = { student: true, age: 20 };
 const myObj = { student: true, age: 20 };
@@ -27,4 +29,3 @@ function restParams(...params) {
     console.log(params);
 }
 restParams(1, 2, 3, 4, 5);
-export {};

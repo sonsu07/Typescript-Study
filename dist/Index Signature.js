@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const someOne = {
     name: 'Kim',
     age: 21,
@@ -17,4 +19,3 @@ const lee = new Person('Lee', 28, 'Busan');
 for (let prop in lee) {
     console.log(`${prop} ${lee[prop]}`);
 }
-export {};
