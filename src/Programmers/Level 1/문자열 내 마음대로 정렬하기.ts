@@ -13,3 +13,5 @@ function solution(strings: string[], n: number): string[] {
 }
 
 console.log(solution(["abce", "abcd", "cdx"], 2));
+
+export {}
