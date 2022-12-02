@@ -46,3 +46,5 @@ function solution(numbers: number[]) {
 }
 
 console.log(solution([2,1,3,4,1]));
+
+export {}

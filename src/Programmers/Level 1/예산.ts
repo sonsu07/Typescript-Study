@@ -46,3 +46,5 @@ function solution(d: number[], budget: number): number {
 }
 
 console.log(solution([2,2,3,3], 10));
+
+export {}

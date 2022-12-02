@@ -3,3 +3,5 @@ function solution(n: number): number {
 }
 
 console.log(solution(125));
+
+export {}

@@ -14,3 +14,5 @@ function solution(s: string, n: number): string {
 }
 
 console.log(solution("a B z", 4));
+
+export {}

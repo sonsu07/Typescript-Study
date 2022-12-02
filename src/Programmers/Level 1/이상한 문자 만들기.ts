@@ -12,3 +12,5 @@ function solution(s: string) {
 }
 
 console.log(solution("try hello world"));
+
+export {}
