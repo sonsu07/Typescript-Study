@@ -17,3 +17,5 @@ function removeDuplicates(nums: number[]): number {
 
 const result = removeDuplicates([1,1,2]);
 console.log(result);
+
+export {}
