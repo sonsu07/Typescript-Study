@@ -35,3 +35,5 @@ function solution(n: number, arr1: number[], arr2: number[]): string[] {
 }
 
 console.log(solution(5, [9, 20, 28, 18, 11], [30, 1, 21, 17, 28]));
+
+export {}
